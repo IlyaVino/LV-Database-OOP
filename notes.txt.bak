@@ -1,0 +1,148 @@
+Database:
+	Member data:
+		Database connection object
+			Database connectivity
+			SQLite
+		Table, Schema, Column, etc
+
+	Methods:
+		Connect:
+		Close:
+
+Schema object
+	Properties:
+		Tables
+	Methods:
+	
+Table:
+	Properties:
+		Column names
+	Methods:
+
+Column object
+	Properties:
+		Name
+		Type
+		Foreign Keys
+		Constraints
+		
+		
+	Methods:
+	
+	Numeric:
+	
+	String:
+	
+	Foreign Key:
+	
+DBMS object (virtual)
+	Properties:
+		
+	Methods:
+		Get Tables
+			List of table objects
+			Option: include sys tables
+		Get Columns
+			List of column objects
+		Get Column Info
+			Column object
+	Generic
+	MS Access
+	SQLite
+	
+
+Form object:
+	Member data:
+		Field array
+		Field info array(?)
+
+	Methods:
+		Initialize Form
+		Set default values
+		Read Values
+		Write Values
+
+Field object:
+
+	Methods:
+		Initialize field
+		Add reference
+		Format ctrl
+		Set ctrl value
+		Get ctrl value
+
+	Types of field objects:
+		Numeric
+		Text
+		Path
+		Text ring (PK)
+		Timestamp
+		
+		
+-----------------------
+Database workflow
+	Open connection
+	Load Form
+		Determine which table you want to load
+		Find VI that corresponds to table
+		Load VI Ref
+			Scan VI for fields
+			Determine which field corresponds to which column
+			Determine field type
+				Ring (FK)
+					Populate ring
+						Query FK info from database
+						Query child table for pk column and display column
+						Update ring ctrl reference
+					Get and set active entry
+				String
+					Get and set active entry
+				Numeric
+					Get and set active entry
+	Combine data with form
+	Load data to database
+	Close connection
+	
+---------------------------
+New structure:
+DB class (virtual)
+	Methods: all methods required to access database
+	Children:
+	-SQLite
+	-OBDC
+		-MS Access
+	
+Form class interfaces DB class methods
+	Properties
+	-DB reference (DVR?)
+	-Fields
+		
+Table class interfaces DB class methods
+	Properties
+	-DB reference (DVR?)
+	-Columns
+	
+Column class interfaces DB class methods
+	Properties
+	-DB reference (DVR?)
+	-Info cluster
+	-FK
+	-Check
+	
+	
+Form class
+	Array of fields
+	Associated Query for the field
+	
+Fields class
+	Props: Table, column, ctrl refnum
+	Methods: get/set props, check refnum class, get/set value specific to database/column, get/set display value
+	Text - no query
+		Props: 
+		Methods: check refnum class
+	Numeric - check constraint query
+		Props: check
+		Methods: check refnum class, verify constraints
+	Ring - custom query allowed (this is the most complex)
+		Props: FK, query
+		Methods: check refnum class, set display value, 
