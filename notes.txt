@@ -135,7 +135,7 @@ Form class
 	Associated Query for the field
 	
 Fields class
-	Props: Table, column, ctrl refnum
+	Props: Table, column, ctrl refnum, database object (?) or column  object (?)
 	Methods: get/set props, check refnum class, get/set value specific to database/column, get/set display value
 	Text - no query
 		Props: 
@@ -146,3 +146,64 @@ Fields class
 	Ring - custom query allowed (this is the most complex)
 		Props: FK, query
 		Methods: check refnum class, set display value, 
+		
+Table will be built in the back panel
+
+Form.lvclass
+	Member data
+		Messaging Queues
+		VI refnum
+		Form builder.lvclass
+	Methods
+		Calling VI:
+			Open Form
+			Close Form
+			Get Form Data
+			Set Form Data
+Form builder.lvclass:
+	Member data
+		Field Array
+		Field name lookup (variant)
+		
+		
+		
+Form AF
+
+Form model
+Form controller
+Form UI
+Individual forms
+
+What does a form need to do?
+	Programmer:
+		Design a UI
+		Add properties to UI elements (fields)
+	User:
+		Subpanel:
+			Add row to DB 
+			Modify existing row (?)
+			Call a prompt
+		Window:
+			Close currently opened forms
+			Close all forms
+			Modify exisitng row (?)
+			Add row to DB from form
+		Both:
+			Change information
+			Open new forms	
+	Form (programattically):
+		Run form
+		Add row to DB based on form
+		Modify DB row
+		Call a prompt
+		Close form
+		Close all forms
+		Select a form
+		
+OO/AF architecture
+*Form nonAF Wrapper
+	*Form Manager actor
+		*Form Model actor
+			*Form Ctrl actor
+			*Form UI actor (abstract)
+				*User created form UIs (Actors)
