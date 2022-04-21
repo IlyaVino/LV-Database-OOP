@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Form Controller.lvclass"/>
+	<Item Name="Update Fields Logic Simple Table.lvclass" Type="LVClass" URL="../Update Fields Logic Simple Table/Update Fields Logic Simple Table.lvclass"/>
 </Library>

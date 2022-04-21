@@ -23,7 +23,10 @@
 				<Item Name="Ring Field.lvclass" Type="LVClass" URL="../Ring Field/Ring Field.lvclass"/>
 				<Item Name="FK Ring.lvclass" Type="LVClass" URL="../FK Ring/FK Ring.lvclass"/>
 			</Item>
-			<Item Name="Form.lvclass" Type="LVClass" URL="../Form/Form.lvclass"/>
+			<Item Name="Button OOP" Type="Folder">
+				<Item Name="Button.lvclass" Type="LVClass" URL="../Button/Button.lvclass"/>
+				<Item Name="Open Form.lvclass" Type="LVClass" URL="../Open Form/Open Form.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Table OOP" Type="Folder">
 			<Item Name="Foreign Key.lvclass" Type="LVClass" URL="../Foreign Key/Foreign Key.lvclass"/>
@@ -50,7 +53,6 @@
 		<Item Name="FK Ring Info.ctl" Type="VI" URL="../FK Ring/FK Ring Info.ctl"/>
 		<Item Name="FK Ring Field Info.ctl" Type="VI" URL="../Field/FK Ring Field Info.ctl"/>
 		<Item Name="Match Pattern in Column Name Array.vi" Type="VI" URL="../Match Pattern in Column Name Array.vi"/>
-		<Item Name="Form AF.lvlib" Type="Library" URL="../../unit tests/Form AF.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -341,16 +343,7 @@
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="OffsetRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/PictureSupport.llb/OffsetRect.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
-				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
-			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
