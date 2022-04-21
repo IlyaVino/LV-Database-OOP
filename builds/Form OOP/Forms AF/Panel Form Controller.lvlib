@@ -4,5 +4,8 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Form Configuration.lvclass" Type="LVClass" URL="../Form Configuration/Form Configuration.lvclass"/>
+	<Item Name="Builder Cluster.ctl" Type="VI" URL="../Builder Cluster.ctl"/>
+	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Panel Form Controller.lvclass"/>
+	<Item Name="Populate All Fields Msg.lvclass" Type="LVClass" URL="../Populate All Fields Msg.lvclass"/>
+	<Item Name="Populate Field Msg.lvclass" Type="LVClass" URL="../Populate Field Msg.lvclass"/>
 </Library>

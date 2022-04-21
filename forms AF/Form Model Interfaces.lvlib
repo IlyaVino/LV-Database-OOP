@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Form Model Messages.lvclass" Type="LVClass" URL="../Form Model Messages/Form Model Messages.lvclass"/>
+	<Item Name="Open Form Msg.lvclass" Type="LVClass" URL="../Form Model Messages Messages/Open Form Msg/Open Form Msg.lvclass"/>
 </Library>

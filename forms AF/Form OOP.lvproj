@@ -16,11 +16,12 @@
 			<Item Name="Form Server Interfaces.lvlib" Type="Library" URL="../Form Server Interfaces.lvlib"/>
 			<Item Name="Open Close Logic Simple Table.lvlib" Type="Library" URL="../Open Close Logic Simple Table.lvlib"/>
 			<Item Name="Update Fields Logic Simple Table.lvlib" Type="Library" URL="../Update Fields Logic Simple Table.lvlib"/>
+			<Item Name="Form Server Configuration.lvlib" Type="Library" URL="../Form Server Configuration.lvlib"/>
 		</Item>
 		<Item Name="Model" Type="Folder">
 			<Item Name="Form Model.lvlib" Type="Library" URL="../Form Model.lvlib"/>
 			<Item Name="Form Model Interfaces.lvlib" Type="Library" URL="../Form Model Interfaces.lvlib"/>
-			<Item Name="Form Configuration.lvlib" Type="Library" URL="../Form Model/Form Configuration.lvlib"/>
+			<Item Name="Form Model Configuration.lvlib" Type="Library" URL="../Form Model/Form Model Configuration.lvlib"/>
 		</Item>
 		<Item Name="Control" Type="Folder">
 			<Item Name="Panel Form Controller.lvlib" Type="Library" URL="../Panel Form Controller.lvlib"/>
@@ -114,6 +115,7 @@
 				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
 				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get PString__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
