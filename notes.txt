@@ -207,3 +207,20 @@ OO/AF architecture
 			*Form Ctrl actor
 			*Form UI actor (abstract)
 				*User created form UIs (Actors)
+				
+				
+todo:
+clean up column class/interfaces
+	-base column interface
+		-normal column
+			-pk decorator (what does this decorator need/add? -autoincrement? -unique?)
+			-fk decorator (" ", ability to pull pk values?)
+			-text
+			-numeric
+		-field
+		-can decorators be defined by interfaces?
+write table constructor
+	-database
+	-table name
+		-choose column class based on column type
+		-decorate column with pk designation (is this needed?)

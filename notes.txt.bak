@@ -173,3 +173,52 @@ Form model
 Form controller
 Form UI
 Individual forms
+
+What does a form need to do?
+	Programmer:
+		Design a UI
+		Add properties to UI elements (fields)
+	User:
+		Subpanel:
+			Add row to DB 
+			Modify existing row (?)
+			Call a prompt
+		Window:
+			Close currently opened forms
+			Close all forms
+			Modify exisitng row (?)
+			Add row to DB from form
+		Both:
+			Change information
+			Open new forms	
+	Form (programattically):
+		Run form
+		Add row to DB based on form
+		Modify DB row
+		Call a prompt
+		Close form
+		Close all forms
+		Select a form
+		
+OO/AF architecture
+*Form nonAF Wrapper
+	*Form Manager actor
+		*Form Model actor
+			*Form Ctrl actor
+			*Form UI actor (abstract)
+				*User created form UIs (Actors)
+				
+				
+todo:
+clean up column class/interfaces
+	-base column interface
+		-normal column
+			-pk decorator (what does a decorator need? -autoincrement? -unique?)
+			-text
+			-numeric
+		-field
+write table constructor
+	-database
+	-table name
+		-choose column class based on column type
+		-decorate column with pk designation (is this needed?)

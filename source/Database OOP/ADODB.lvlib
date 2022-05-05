@@ -6,5 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ADODB.lvclass" Type="LVClass" URL="../ADODB/ADODB Class/ADODB.lvclass"/>
 	<Item Name="connection open schema.vi" Type="VI" URL="../ADODB/connection open schema.vi"/>
+	<Item Name="Convert Database Datatype.vi" Type="VI" URL="../ADODB/Convert Database Datatype.vi"/>
 	<Item Name="recordset get field names.vi" Type="VI" URL="../ADODB/recordset get field names.vi"/>
+	<Item Name="UDL Connection.lvclass" Type="LVClass" URL="../ADODB/UDL Connection Class/UDL Connection.lvclass"/>
 </Library>

@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="Database.lvclass" Type="LVClass" URL="../Database/Database Class/Database.lvclass"/>
-	<Item Name="foreign key properties.ctl" Type="VI" URL="../Database/foreign key properties.ctl"/>
+	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Column Configuration.lvclass" Type="LVClass" URL="../Column Interface/Column Configuration Interface Class/Column Configuration.lvclass"/>
+	<Item Name="Column Interface.lvclass" Type="LVClass" URL="../Column Interface/Column Interface Class/Column Interface.lvclass"/>
+	<Item Name="Column Factory.lvclass" Type="LVClass" URL="../Column Factory/Column Factory.lvclass"/>
+	<Item Name="Timestamp Rule Interface.lvclass" Type="LVClass" URL="../Column Interface/Timestamp Rule Interface/Timestamp Rule Interface.lvclass"/>
 </Library>
