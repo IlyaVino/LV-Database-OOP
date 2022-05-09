@@ -12,13 +12,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Database OOP" Type="Folder">
-			<Item Name="Database Interfaces.lvlib" Type="Library" URL="../Database Interfaces.lvlib"/>
-			<Item Name="ADODB.lvlib" Type="Library" URL="../ADODB.lvlib"/>
+			<Item Name="Database Interfaces.lvlib" Type="Library" URL="../Database Libraries/Database Interfaces.lvlib"/>
+			<Item Name="ADODB.lvlib" Type="Library" URL="../Database Libraries/ADODB.lvlib"/>
 		</Item>
 		<Item Name="Form OOP" Type="Folder">
 			<Item Name="Field OOP" Type="Folder">
-				<Item Name="Field.lvlib" Type="Library" URL="../Field.lvlib"/>
-				<Item Name="Basic Fields.lvlib" Type="Library" URL="../Basic Fields.lvlib"/>
+				<Item Name="Old Field.lvlib" Type="Library" URL="../Old Field.lvlib"/>
+				<Item Name="Old Basic Fields.lvlib" Type="Library" URL="../Old Basic Fields.lvlib"/>
 			</Item>
 			<Item Name="Button OOP" Type="Folder">
 				<Item Name="Open Form Button.lvlib" Type="Library" URL="../Open Form Button.lvlib"/>
@@ -26,14 +26,20 @@
 			</Item>
 		</Item>
 		<Item Name="Table OOP" Type="Folder">
+			<Item Name="Interfaces" Type="Folder">
+				<Item Name="Column Interfaces.lvlib" Type="Library" URL="../Column Libraries/Column Interfaces.lvlib"/>
+				<Item Name="Field Interfaces.lvlib" Type="Library" URL="../Column Libraries/Field Interfaces.lvlib"/>
+			</Item>
 			<Item Name="Column" Type="Folder">
-				<Item Name="Column Interfaces.lvlib" Type="Library" URL="../Column Interfaces.lvlib"/>
-				<Item Name="Constraints.ctl" Type="VI" URL="../Column Interface/Constraints.ctl"/>
-				<Item Name="Basic Columns.lvlib" Type="Library" URL="../Basic Columns.lvlib"/>
+				<Item Name="Basic Columns.lvlib" Type="Library" URL="../Column Libraries/Basic Columns.lvlib"/>
+				<Item Name="Basic Fields.lvlib" Type="Library" URL="../Column Libraries/Basic Fields.lvlib"/>
+				<Item Name="Constraints.ctl" Type="VI" URL="../Column Libraries/Column Interface/Constraints.ctl"/>
 			</Item>
 			<Item Name="Table" Type="Folder">
-				<Item Name="Table.lvlib" Type="Library" URL="../Table.lvlib"/>
+				<Item Name="Form.lvlib" Type="Library" URL="../Table Libraries/Form.lvlib"/>
+				<Item Name="Table.lvlib" Type="Library" URL="../Table Libraries/Table.lvlib"/>
 			</Item>
+			<Item Name="Field" Type="Folder"/>
 			<Item Name="Foreign Key.lvclass" Type="LVClass" URL="../Foreign Key Class/Foreign Key.lvclass"/>
 		</Item>
 		<Item Name="sketches" Type="Folder">
@@ -55,9 +61,6 @@
 				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
-				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
-				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="Panel.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Panel Manager/Panel/Panel.lvlib"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
@@ -91,6 +94,10 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
