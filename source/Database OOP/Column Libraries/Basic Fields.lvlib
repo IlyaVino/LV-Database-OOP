@@ -4,9 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Configuration" Type="Folder">
 		<Item Name="Field Configuration.lvclass" Type="LVClass" URL="../Basic Fields/Field Configurations/Field Configuration Class/Field Configuration.lvclass"/>
 	</Item>
 	<Item Name="Ctrl Refnum Column.lvclass" Type="LVClass" URL="../Basic Fields/Basic Field Class/Ctrl Refnum Column.lvclass"/>
-	<Item Name="Text Field.lvclass" Type="LVClass" URL="../Text Field/Text Field.lvclass"/>
+	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Text Field/FK Ring.lvclass"/>
+	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../../Basic Fields/String and values cluster array to individual array.vi"/>
+	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../../Basic Fields/String and values individual array to cluster array.vi"/>
 </Library>

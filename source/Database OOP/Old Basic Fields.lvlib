@@ -5,10 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Basic Fields/FK Ring Class/FK Ring.lvclass"/>
-	<Item Name="Match Pattern in Column Name Array.vi" Type="VI" URL="../Basic Fields/Match Pattern in Column Name Array.vi"/>
 	<Item Name="Numeric Field.lvclass" Type="LVClass" URL="../Basic Fields/Numeric Field Class/Numeric Field.lvclass"/>
 	<Item Name="Ring Field.lvclass" Type="LVClass" URL="../Basic Fields/Ring Field Class/Ring Field.lvclass"/>
-	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../Basic Fields/String and values cluster array to individual array.vi"/>
-	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../Basic Fields/String and values individual array to cluster array.vi"/>
 	<Item Name="Text field.lvclass" Type="LVClass" URL="../Basic Fields/Text field Class/Text field.lvclass"/>
 </Library>

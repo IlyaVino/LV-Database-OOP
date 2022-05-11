@@ -6,7 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Field.lvclass" Type="LVClass" URL="../Field/Field Class/Field.lvclass"/>
 	<Item Name="FK Ring Field Info.ctl" Type="VI" URL="../Field/FK Ring Field Info.ctl"/>
-	<Item Name="FK Ring Info.ctl" Type="VI" URL="../Field/FK Ring Info.ctl"/>
 	<Item Name="Numeric Field Info.ctl" Type="VI" URL="../Field/Numeric Field Info.ctl"/>
 	<Item Name="Ring Field Info.ctl" Type="VI" URL="../Field/Ring Field Info.ctl"/>
 	<Item Name="Text Field Info.ctl" Type="VI" URL="../Field/Text Field Info.ctl"/>
