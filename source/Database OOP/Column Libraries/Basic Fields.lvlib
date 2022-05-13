@@ -9,7 +9,7 @@
 		<Item Name="Field Configuration.lvclass" Type="LVClass" URL="../Basic Fields/Field Configurations/Field Configuration Class/Field Configuration.lvclass"/>
 	</Item>
 	<Item Name="Ctrl Refnum Column.lvclass" Type="LVClass" URL="../Basic Fields/Basic Field Class/Ctrl Refnum Column.lvclass"/>
-	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Text Field/FK Ring.lvclass"/>
-	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../../Basic Fields/String and values cluster array to individual array.vi"/>
-	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../../Basic Fields/String and values individual array to cluster array.vi"/>
+	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Basic Fields/Foreign Key Ring Field Class/FK Ring.lvclass"/>
+	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../../Legacy/Basic Fields/String and values cluster array to individual array.vi"/>
+	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../../Legacy/Basic Fields/String and values individual array to cluster array.vi"/>
 </Library>

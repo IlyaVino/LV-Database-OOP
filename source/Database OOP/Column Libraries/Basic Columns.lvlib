@@ -9,7 +9,7 @@
 		<Item Name="Basic Column Factory.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Factory Class/Basic Column Factory.lvclass"/>
 		<Item Name="OLE DB Timestamp.lvclass" Type="LVClass" URL="../Basic Columns/Basic Columns/OLE DB Timestamp Class/OLE DB Timestamp.lvclass"/>
 	</Item>
-	<Item Name="By-Value Column.lvclass" Type="LVClass" URL="../By-Value Column/By-Value Column.lvclass"/>
+	<Item Name="By-Value Column.lvclass" Type="LVClass" URL="../Basic Columns/Basic Columns/By-Value Column Class/By-Value Column.lvclass"/>
 	<Item Name="Column Information.ctl" Type="VI" URL="../Column Interface/Column Information.ctl"/>
 	<Item Name="Column Parent.lvclass" Type="LVClass" URL="../Basic Columns/Basic Columns/Column Class/Column Parent.lvclass"/>
 	<Item Name="Numeric Column.lvclass" Type="LVClass" URL="../Basic Columns/Basic Columns/Numeric Column Class/Numeric Column.lvclass"/>

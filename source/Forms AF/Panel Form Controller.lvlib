@@ -4,7 +4,14 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Configuration" Type="Folder">
+		<Item Name="Form from Configured Table.lvclass" Type="LVClass" URL="../Form from Configured Table/Form from Configured Table.lvclass"/>
+		<Item Name="Form from Table Configuration.lvclass" Type="LVClass" URL="../Form from Table Configuration/Form from Table Configuration.lvclass"/>
+		<Item Name="Panel Form Controller Config Constructor.vi" Type="VI" URL="../Panel Form Controller Config Constructor.vi"/>
+		<Item Name="Panel Form Controller Configuration.lvclass" Type="LVClass" URL="../Controller Configuration/Panel Form Controller Configuration.lvclass"/>
+	</Item>
 	<Item Name="Builder Cluster.ctl" Type="VI" URL="../Form Controller/Builder Cluster.ctl"/>
+	<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
 	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Panel Form Controller.lvclass"/>
 	<Item Name="Populate All Fields Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate All Fields Msg/Populate All Fields Msg.lvclass"/>
 	<Item Name="Populate Field Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate Field Msg/Populate Field Msg.lvclass"/>

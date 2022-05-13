@@ -15,18 +15,9 @@
 			<Item Name="Database Interfaces.lvlib" Type="Library" URL="../Database Libraries/Database Interfaces.lvlib"/>
 			<Item Name="ADODB.lvlib" Type="Library" URL="../Database Libraries/ADODB.lvlib"/>
 		</Item>
-		<Item Name="Form OOP" Type="Folder">
-			<Item Name="Field OOP" Type="Folder">
-				<Item Name="Old Field.lvlib" Type="Library" URL="../Old Field.lvlib"/>
-				<Item Name="Old Basic Fields.lvlib" Type="Library" URL="../Old Basic Fields.lvlib"/>
-			</Item>
-			<Item Name="Button OOP" Type="Folder">
-				<Item Name="Open Form Button.lvlib" Type="Library" URL="../Open Form Button.lvlib"/>
-				<Item Name="Button.lvlib" Type="Library" URL="../Button.lvlib"/>
-			</Item>
-		</Item>
 		<Item Name="Table OOP" Type="Folder">
 			<Item Name="Interfaces" Type="Folder">
+				<Item Name="Button Interfaces.lvlib" Type="Library" URL="../Button Libraries/Button Interfaces.lvlib"/>
 				<Item Name="Column Interfaces.lvlib" Type="Library" URL="../Column Libraries/Column Interfaces.lvlib"/>
 				<Item Name="Field Interfaces.lvlib" Type="Library" URL="../Column Libraries/Field Interfaces.lvlib"/>
 			</Item>
@@ -40,8 +31,10 @@
 				<Item Name="Form.lvlib" Type="Library" URL="../Table Libraries/Form.lvlib"/>
 				<Item Name="Table.lvlib" Type="Library" URL="../Table Libraries/Table.lvlib"/>
 			</Item>
-			<Item Name="Field" Type="Folder"/>
-			<Item Name="Foreign Key.lvclass" Type="LVClass" URL="../Foreign Key Class/Foreign Key.lvclass"/>
+			<Item Name="Buttons" Type="Folder">
+				<Item Name="Open Form Button.lvlib" Type="Library" URL="../Button Libraries/Open Form Button.lvlib"/>
+				<Item Name="Button.lvlib" Type="Library" URL="../Button Libraries/Button.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="sketches" Type="Folder">
 			<Item Name="database MS Access test.vi" Type="VI" URL="../../../unit tests/database MS Access test.vi"/>
@@ -55,13 +48,7 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
-				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Panel.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Panel Manager/Panel/Panel.lvlib"/>
 				<Item Name="Semaphore RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore RefNum"/>
 				<Item Name="Semaphore Refnum Core.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Semaphore Refnum Core.ctl"/>
@@ -100,6 +87,11 @@
 				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
@@ -344,6 +336,8 @@
 				<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 				<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
 			</Item>
+			<Item Name="Old Field.lvlib" Type="Library" URL="../Legacy/Old Field.lvlib"/>
+			<Item Name="Old Basic Fields.lvlib" Type="Library" URL="../Legacy/Old Basic Fields.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

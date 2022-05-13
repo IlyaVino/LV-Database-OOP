@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Basic Columns.lvlib:By-Value Column.lvclass" Type="Parent" URL="../../../../By-Value Column/By-Value Column.lvclass"/>
+		<Item Name="Basic Columns.lvlib:By-Value Column.lvclass" Type="Parent" URL="../../By-Value Column Class/By-Value Column.lvclass"/>
 	</Item>
 	<Item Name="Numeric Column.ctl" Type="Class Private Data" URL="Numeric Column.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

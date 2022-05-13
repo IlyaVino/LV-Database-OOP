@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Basic Columns.lvlib:By-Value Column.lvclass" Type="Parent" URL="../../../../By-Value Column/By-Value Column.lvclass"/>
+		<Item Name="Basic Columns.lvlib:By-Value Column.lvclass" Type="Parent" URL="../../By-Value Column Class/By-Value Column.lvclass"/>
 	</Item>
 	<Item Name="Timestamp Column.ctl" Type="Class Private Data" URL="Timestamp Column.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -36,11 +36,11 @@
 		<Item Name="Write Timestamp Rule.vi" Type="VI" URL="../Write Timestamp Rule.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'Y!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%Z!=!!?!!!O%U*B=WFD)%.P&lt;(6N&lt;H-O&lt;(:M;7)96'FN:8.U97VQ)%.P&lt;(6N&lt;CZM&gt;G.M98.T!!!56'FN:8.U97VQ)%.P&lt;(6N&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6%"Q!"Y!!$I81W^M&gt;7VO)%FO&gt;'6S:G&amp;D:8-O&lt;(:M;7)A6'FN:8.U97VQ)&amp;*V&lt;'5A37ZU:8*G97.F,GRW9WRB=X-!!!Z5;7VF=X2B&lt;8!A5H6M:1!!4%"Q!"Y!!#Y41G&amp;T;7-A1W^M&gt;7VO=SZM&gt;GRJ9BB5;7VF=X2B&lt;8!A1W^M&gt;7VO,GRW9WRB=X-!!".5;7VF=X2B&lt;8!A1W^M&gt;7VO)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!")!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">50331648</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107820544</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8912896</Property>
 		</Item>
 	</Item>
 	<Item Name="Check Value Type.vi" Type="VI" URL="../Check Value Type.vi">
