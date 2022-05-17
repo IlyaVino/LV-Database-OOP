@@ -13,4 +13,6 @@
 	<Item Name="Update Fields Logic.lvclass" Type="LVClass" URL="../Update Fields Logic/Update Fields Logic.lvclass"/>
 	<Item Name="Close Form Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Close Form Msg/Close Form Msg.lvclass"/>
 	<Item Name="Open Form Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Open Form Msg/Open Form Msg.lvclass"/>
+	<Item Name="Get Table Object Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Get Table Object Msg/Get Table Object Msg.lvclass"/>
+	<Item Name="Update Form Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Update Form Msg/Update Form Msg.lvclass"/>
 </Library>

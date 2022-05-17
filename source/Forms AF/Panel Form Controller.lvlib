@@ -10,6 +10,10 @@
 		<Item Name="Panel Form Controller Config Constructor.vi" Type="VI" URL="../Panel Form Controller Config Constructor.vi"/>
 		<Item Name="Panel Form Controller Configuration.lvclass" Type="LVClass" URL="../Controller Configuration/Panel Form Controller Configuration.lvclass"/>
 	</Item>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Get Table Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Get Table Msg/Get Table Msg.lvclass"/>
+		<Item Name="Update Table Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Update Table Msg/Update Table Msg.lvclass"/>
+	</Item>
 	<Item Name="Builder Cluster.ctl" Type="VI" URL="../Form Controller/Builder Cluster.ctl"/>
 	<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
 	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Panel Form Controller.lvclass"/>
