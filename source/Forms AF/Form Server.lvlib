@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Form Server.lvclass" Type="LVClass" URL="../Form Server/Form Server.lvclass"/>
+	<Item Name="Form Server Wrapper.lvclass" Type="LVClass" URL="../Form Server Wrapper/Form Server Wrapper.lvclass"/>
 </Library>

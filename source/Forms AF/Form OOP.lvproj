@@ -29,6 +29,7 @@
 		</Item>
 		<Item Name="Launch Actors.vi" Type="VI" URL="../Launch Actors.vi"/>
 		<Item Name="get table and column names.vi" Type="VI" URL="../Utility/get table and column names.vi"/>
+		<Item Name="Launch Actors Wrapper.vi" Type="VI" URL="../Launch Actors Wrapper.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>

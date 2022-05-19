@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Form Model Configuration.lvclass" Type="LVClass" URL="../Form Configuration/Form Model Configuration.lvclass"/>
+	<Item Name="Model Panel Logic Nested Window.lvclass" Type="LVClass" URL="../Model Panel Logic/Model Panel Logic Nested Window.lvclass"/>
 </Library>

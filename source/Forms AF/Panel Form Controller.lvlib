@@ -15,6 +15,7 @@
 		<Item Name="Update Table Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Update Table Msg/Update Table Msg.lvclass"/>
 	</Item>
 	<Item Name="Builder Cluster.ctl" Type="VI" URL="../Form Controller/Builder Cluster.ctl"/>
+	<Item Name="Form Window.lvclass" Type="LVClass" URL="../Form Window/Form Window.lvclass"/>
 	<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
 	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Panel Form Controller.lvclass"/>
 	<Item Name="Populate All Fields Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate All Fields Msg/Populate All Fields Msg.lvclass"/>

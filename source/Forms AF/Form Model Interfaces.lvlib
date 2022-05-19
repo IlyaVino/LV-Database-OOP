@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Form Model Messages.lvclass" Type="LVClass" URL="../Form Model Messages/Form Model Messages.lvclass"/>
 	<Item Name="Get Table Object Msg.lvclass" Type="LVClass" URL="../Form Model Messages Messages/Get Table Object Msg/Get Table Object Msg.lvclass"/>
+	<Item Name="Model Panel Logic.lvclass" Type="LVClass" URL="../Model Panel Logic/Model Panel Logic.lvclass"/>
 	<Item Name="Open Form Msg.lvclass" Type="LVClass" URL="../Form Model Messages Messages/Open Form Msg/Open Form Msg.lvclass"/>
 	<Item Name="Update Table Msg.lvclass" Type="LVClass" URL="../Form Model Messages Messages/Update Table Msg/Update Table Msg.lvclass"/>
 </Library>
