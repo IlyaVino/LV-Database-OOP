@@ -213,12 +213,40 @@ todo:
 clean up column class/interfaces
 	-base column interface
 		-normal column
-			-pk decorator (what does a decorator need? -autoincrement? -unique?)
+			-pk decorator (what does this decorator need/add? -autoincrement? -unique?)
+			-fk decorator (" ", ability to pull pk values?)
 			-text
 			-numeric
 		-field
+		-can decorators be defined by interfaces?
 write table constructor
 	-database
 	-table name
 		-choose column class based on column type
 		-decorate column with pk designation (is this needed?)
+		
+a field decorates a column with ctrl accessors?
+
+VI list:
+Forms Server:
+	Form Server Wrapper.lvclass
+	Advanced
+		Write Open Close Logic.vi
+		Write Form Server Configuration.vi
+Form UI
+	Controller:
+		Get Form Builder
+		Write Form Object			
+	Form:
+		Basic Field Constructors
+		Convert Column 2 Field
+		Add Button
+		Open Form Button
+	Advanced
+		Get Model Config Name
+		Model Constructor
+		Controller Constructor
+		Panel Logic Nested Window Constructors
+	Database:
+		All interface VIs
+		

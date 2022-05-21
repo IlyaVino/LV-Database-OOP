@@ -36,6 +36,7 @@
 		</Item>
 		<Item Name="Forms AF" Type="Folder">
 			<Item Name="Forms Controller" Type="Folder">
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="Panel Form Controller.lvlib" Type="Library" URL="../Forms AF/Forms Controller/Panel Form Controller.lvlib"/>
 			</Item>
 			<Item Name="Forms Model" Type="Folder">
@@ -48,14 +49,6 @@
 				<Item Name="Open Close Logic Simple Table.lvlib" Type="Library" URL="../Forms AF/Forms Server/Open Close Logic Simple Table.lvlib"/>
 				<Item Name="Update Fields Logic Simple Table.lvlib" Type="Library" URL="../Forms AF/Forms Server/Update Fields Logic Simple Table.lvlib"/>
 			</Item>
-			<Item Name="User Forms" Type="Folder">
-				<Item Name="Forms.lvlib" Type="Library" URL="../Forms AF/User Forms/Forms.lvlib"/>
-			</Item>
-			<Item Name="Utility" Type="Folder">
-				<Item Name="get table and column names.vi" Type="VI" URL="../Forms AF/Utility/get table and column names.vi"/>
-			</Item>
-			<Item Name="Launch Actors Wrapper.vi" Type="VI" URL="../Forms AF/Launch Actors Wrapper.vi"/>
-			<Item Name="Launch Actors.vi" Type="VI" URL="../Forms AF/Launch Actors.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -349,7 +342,6 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
-				<Item Name="LVStringsAndValuesArrayTypeDef_U16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef_U16.ctl"/>
 				<Item Name="Monitor Data.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitor Data/Monitor Data.lvclass"/>
 				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>

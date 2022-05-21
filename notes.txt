@@ -224,3 +224,42 @@ write table constructor
 	-table name
 		-choose column class based on column type
 		-decorate column with pk designation (is this needed?)
+		
+a field decorates a column with ctrl accessors?
+
+VI list:
+
+Forms:
+	Forms Server:
+	Form Server Wrapper.lvclass all VIs
+		Advanced
+			Write Open Close Logic.vi
+			Write Form Server Configuration.vi
+	Controller:
+		Get Form Builder
+		Write Form Object			
+	Form:
+		Basic Field Constructors
+		Convert Column 2 Field
+		Add Button
+		Open Form Button
+	Advanced
+		Get Model Config Name
+		Model Constructor
+		Controller Constructor
+		Panel Logic Nested Window Constructors
+Database:
+	All interface VIs
+	Databases
+		ADODB
+		Build UDL Connection
+	
+Table:
+	Build from database
+	Get Row as String Array
+	Return Database
+	Set Values by Cluster
+	Set Values by PK
+	Table Configuration Constructor
+			
+		

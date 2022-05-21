@@ -13,10 +13,9 @@
 		<Item Name="Primary Key Info.ctl" Type="VI" URL="../Database Interfaces/Primary Key Info.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Match Pattern in Column Name Array.vi" Type="VI" URL="../../Legacy/Basic Fields/Match Pattern in Column Name Array.vi"/>
+		<Item Name="Match Pattern in Column Name Array.vi" Type="VI" URL="../Database Interfaces/Match Pattern in Column Name Array.vi"/>
 	</Item>
 	<Item Name="Database Connection.lvclass" Type="LVClass" URL="../Database Interfaces/Database Connection Class/Database Connection.lvclass"/>
 	<Item Name="Database Interface.lvclass" Type="LVClass" URL="../Database Interfaces/Database Interface Class/Database Interface.lvclass"/>
 	<Item Name="Database Adv Schema.lvclass" Type="LVClass" URL="../Database Interfaces/Database Advanced Schema Class/Database Adv Schema.lvclass"/>
-	<Item Name="Database.lvclass" Type="LVClass" URL="../Database/Database Class/Database.lvclass"/>
 </Library>

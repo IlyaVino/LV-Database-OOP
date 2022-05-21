@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="FK Info.ctl" Type="VI" URL="../../Legacy/Field/FK Info.ctl"/>
+	<Item Name="FK Info.ctl" Type="VI" URL="../Column Interface/FK Info.ctl"/>
 	<Item Name="Column Configuration.lvclass" Type="LVClass" URL="../Column Interface/Column Configuration Interface Class/Column Configuration.lvclass"/>
 	<Item Name="Column Interface.lvclass" Type="LVClass" URL="../Column Interface/Column Interface Class/Column Interface.lvclass"/>
 	<Item Name="Column Factory.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Column Factory Parent Class/Column Factory.lvclass"/>

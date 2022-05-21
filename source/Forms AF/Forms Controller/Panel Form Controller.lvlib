@@ -20,4 +20,5 @@
 	<Item Name="Form Window.lvclass" Type="LVClass" URL="../Form Window/Form Window.lvclass"/>
 	<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
 	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Panel Form Controller.lvclass"/>
+	<Item Name="User form template.vi" Type="VI" URL="../User form template.vi"/>
 </Library>
