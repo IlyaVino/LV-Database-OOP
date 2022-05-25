@@ -118,6 +118,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">8388608</Property>
 		</Item>
 	</Item>
+	<Item Name="Add row to database.vi" Type="VI" URL="../Add row to database.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%_!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!B#V2B9GRF,GRW&lt;'FC%U*B=WFD)&amp;2B9GRF,GRW9WRB=X-!$U*B=WFD)&amp;2B9GRF)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!B#V2B9GRF,GRW&lt;'FC%U*B=WFD)&amp;2B9GRF,GRW9WRB=X-!$E*B=WFD)&amp;2B9GRF)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
 	<Item Name="Build from database.vi" Type="VI" URL="../Build from database.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;V!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!B#V2B9GRF,GRW&lt;'FC%U*B=WFD)&amp;2B9GRF,GRW9WRB=X-!#62B9GRF)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;"!=!!?!!!T#V2B9GRF,GRW&lt;'FC*62B9GRF)%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F,GRW9WRB=X-!%V2B9GRF)%.P&lt;G:J:X6S982J&lt;WY!.%"Q!"Y!!#%,6'&amp;C&lt;'5O&lt;(:M;7)41G&amp;T;7-A6'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!)6'&amp;C&lt;'5A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!I!!!#3!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
