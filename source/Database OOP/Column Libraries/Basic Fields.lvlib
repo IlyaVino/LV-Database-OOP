@@ -5,9 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Configuration" Type="Folder">
-		<Item Name="Field Configuration.lvclass" Type="LVClass" URL="../Basic Fields/Field Configurations/Field Configuration Class/Field Configuration.lvclass"/>
-	</Item>
+	<Item Name="Configuration" Type="Folder"/>
 	<Item Name="Ctrl Refnum Column.lvclass" Type="LVClass" URL="../Basic Fields/Basic Field Class/Ctrl Refnum Column.lvclass"/>
 	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Basic Fields/Foreign Key Ring Field Class/FK Ring.lvclass"/>
 </Library>

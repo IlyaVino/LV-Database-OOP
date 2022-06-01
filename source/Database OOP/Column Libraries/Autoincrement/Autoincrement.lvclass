@@ -32,10 +32,10 @@
 	<Item Name="Check Value.vi" Type="VI" URL="../Check Value.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)6!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!5QF797RV:3"0&gt;81!3E"Q!"Y!!#Y71W^N='^T:71A1W^M&gt;7VO=SZM&gt;GRJ9B6"&gt;82P;7ZD=G6N:7ZU,GRW9WRB=X-!!"&amp;"&gt;82P;7ZD=G6N:7ZU)'^V&gt;!!71#%21W^F=G.F)&amp;:B&lt;(6F0S!I2CE!6E"Q!"Y!!$981W^M&gt;7VO)%FO&gt;'6S:G&amp;D:8-O&lt;(:M;7)=1W^M&gt;7VO)%.P&lt;G:J:X6S982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!!&amp;%.P&lt;(6N&lt;C"$&lt;WZG;7&gt;V=G&amp;U;7^O!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!L&amp;E.P&lt;8"P=W6E)%.P&lt;(6N&lt;H-O&lt;(:M;7)36G&amp;M&gt;75A6(FQ:3ZM&gt;G.M98.T!!J797RV:3"5?8"F!!!+1&amp;-&amp;6G&amp;M&gt;75!3E"Q!"Y!!#Y71W^N='^T:71A1W^M&gt;7VO=SZM&gt;GRJ9B6"&gt;82P;7ZD=G6N:7ZU,GRW9WRB=X-!!"""&gt;82P;7ZD=G6N:7ZU)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!(!!A!#1!+!!M!$!-!!(A!!!U)!!!!!!!!$1I!!)U,!!!!!!!!!!!!!!A!!!!3!!!!#A!!!")!!!!3!!!!E!!!!!!"!!U!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 </LVClass>

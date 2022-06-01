@@ -6,9 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="FK Info.ctl" Type="VI" URL="../Column Interface/FK Info.ctl"/>
-	<Item Name="Column Configuration.lvclass" Type="LVClass" URL="../Column Interface/Column Configuration Interface Class/Column Configuration.lvclass"/>
 	<Item Name="Column Interface.lvclass" Type="LVClass" URL="../Column Interface/Column Interface Class/Column Interface.lvclass"/>
 	<Item Name="Column Factory.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Column Factory Parent Class/Column Factory.lvclass"/>
 	<Item Name="Timestamp Rule Interface.lvclass" Type="LVClass" URL="../Column Interface/Timestamp Rule Interface/Timestamp Rule Interface.lvclass"/>
-	<Item Name="Base Column Configuration.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Configuration Class/Base Column Configuration.lvclass"/>
+	<Item Name="Column Configuration.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Configuration Class/Column Configuration.lvclass"/>
 </Library>
