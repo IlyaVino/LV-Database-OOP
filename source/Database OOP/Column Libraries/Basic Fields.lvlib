@@ -10,6 +10,4 @@
 	</Item>
 	<Item Name="Ctrl Refnum Column.lvclass" Type="LVClass" URL="../Basic Fields/Basic Field Class/Ctrl Refnum Column.lvclass"/>
 	<Item Name="FK Ring.lvclass" Type="LVClass" URL="../Basic Fields/Foreign Key Ring Field Class/FK Ring.lvclass"/>
-	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../Basic Fields/String and values cluster array to individual array.vi"/>
-	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../Basic Fields/String and values individual array to cluster array.vi"/>
 </Library>

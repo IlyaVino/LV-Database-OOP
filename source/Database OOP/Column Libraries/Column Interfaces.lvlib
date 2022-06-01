@@ -10,4 +10,5 @@
 	<Item Name="Column Interface.lvclass" Type="LVClass" URL="../Column Interface/Column Interface Class/Column Interface.lvclass"/>
 	<Item Name="Column Factory.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Column Factory Parent Class/Column Factory.lvclass"/>
 	<Item Name="Timestamp Rule Interface.lvclass" Type="LVClass" URL="../Column Interface/Timestamp Rule Interface/Timestamp Rule Interface.lvclass"/>
+	<Item Name="Base Column Configuration.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Configuration Class/Base Column Configuration.lvclass"/>
 </Library>

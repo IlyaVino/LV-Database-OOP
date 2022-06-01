@@ -6,4 +6,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Field Configuration.lvclass" Type="LVClass" URL="../Field Interfaces/Field Configuration Interface Class/Field Configuration.lvclass"/>
 	<Item Name="Field Interface.lvclass" Type="LVClass" URL="../Field Interfaces/Field Interface Class/Field Interface.lvclass"/>
+	<Item Name="String and values cluster array to individual array.vi" Type="VI" URL="../Basic Fields/String and values cluster array to individual array.vi"/>
+	<Item Name="String and values individual array to cluster array.vi" Type="VI" URL="../Basic Fields/String and values individual array to cluster array.vi"/>
 </Library>

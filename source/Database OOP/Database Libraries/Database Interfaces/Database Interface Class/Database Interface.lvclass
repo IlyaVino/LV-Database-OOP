@@ -93,4 +93,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
+	<Item Name="SQL Query.vi" Type="VI" URL="../SQL Query.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!?1%!!!P``````````!!5-586F=HEA5G6T&gt;7RU!!"91(!!(A!!.BF%982B9G&amp;T:3"*&lt;H2F=G:B9W6T,GRW&lt;'FC'E2B&gt;'&amp;C98.F)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!72'&amp;U97*B=W5A37ZU:8*G97.F)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!31$$`````#6.24#"2&gt;76S?1"71(!!(A!!.BF%982B9G&amp;T:3"*&lt;H2F=G:B9W6T,GRW&lt;'FC'E2B&gt;'&amp;C98.F)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!!62'&amp;U97*B=W5A37ZU:8*G97.F)'FO!&amp;1!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!#1!+!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!AA!!!#1!!!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685376</Property>
+	</Item>
 </LVClass>

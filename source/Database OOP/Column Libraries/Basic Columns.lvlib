@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Configuration" Type="Folder">
-		<Item Name="Basic Column Configuration.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Configuration Class/Basic Column Configuration.lvclass"/>
 		<Item Name="Basic Column Factory.lvclass" Type="LVClass" URL="../Basic Columns/Column Configuration/Basic Column Factory Class/Basic Column Factory.lvclass"/>
 		<Item Name="OLE DB Timestamp.lvclass" Type="LVClass" URL="../Basic Columns/Basic Columns/OLE DB Timestamp Class/OLE DB Timestamp.lvclass"/>
 	</Item>
