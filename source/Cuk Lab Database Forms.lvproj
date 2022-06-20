@@ -16,11 +16,10 @@
 				<Item Name="Button.lvlib" Type="Library" URL="../Database OOP/Button Libraries/Button.lvlib"/>
 			</Item>
 			<Item Name="Column Libraries" Type="Folder">
-				<Item Name="Basic Columns.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Basic Columns.lvlib"/>
-				<Item Name="Basic Field Constructors.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Basic Field Constructors.lvlib"/>
-				<Item Name="Basic Fields.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Basic Fields.lvlib"/>
 				<Item Name="Column Interfaces.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Column Interfaces.lvlib"/>
 				<Item Name="Composed Columns.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Composed Columns.lvlib"/>
+				<Item Name="Composed Field Constructors.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Composed Field Constructors.lvlib"/>
+				<Item Name="Composed Fields.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Composed Fields.lvlib"/>
 				<Item Name="Field Interfaces.lvlib" Type="Library" URL="../Database OOP/Column Libraries/Field Interfaces.lvlib"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 			</Item>
@@ -51,6 +50,10 @@
 				<Item Name="Open Close Logic Simple Table.lvlib" Type="Library" URL="../Forms AF/Forms Server/Open Close Logic Simple Table.lvlib"/>
 				<Item Name="Update Fields Logic Simple Table.lvlib" Type="Library" URL="../Forms AF/Forms Server/Update Fields Logic Simple Table.lvlib"/>
 			</Item>
+		</Item>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="Is LV Object Default.vi" Type="VI" URL="../SubVIs/Is LV Object Default.vi"/>
+			<Item Name="Merge Tools.lvlib" Type="Library" URL="../SubVIs/Merge Tools.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -312,6 +315,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>

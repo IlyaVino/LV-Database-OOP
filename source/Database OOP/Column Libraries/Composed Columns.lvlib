@@ -26,6 +26,7 @@
 		<Item Name="Value Source.lvclass" Type="LVClass" URL="../Composed Columns/Value Source Interface Class/Value Source.lvclass"/>
 	</Item>
 	<Item Name="Value Type" Type="Folder">
+		<Item Name="Integer Value.lvclass" Type="LVClass" URL="../Integer Value/Integer Value.lvclass"/>
 		<Item Name="Numeric Value.lvclass" Type="LVClass" URL="../Numeric Value/Numeric Value.lvclass"/>
 		<Item Name="String Value.lvclass" Type="LVClass" URL="../String Value/String Value.lvclass"/>
 		<Item Name="Timestamp Value.lvclass" Type="LVClass" URL="../Timestamp Value/Timestamp Value.lvclass"/>

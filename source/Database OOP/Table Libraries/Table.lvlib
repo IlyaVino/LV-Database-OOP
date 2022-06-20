@@ -5,11 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Configuration" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Table Configuration Constructor.vi" Type="VI" URL="../Basic Table/Table Configuration Constructor.vi"/>
 		<Item Name="Table Configuration Adv Schema DB.lvclass" Type="LVClass" URL="../Basic Table/Configuration/Table Configuration Adv Schema DB/Table Configuration Adv Schema DB.lvclass"/>
 		<Item Name="Table Configuration Basic DB.lvclass" Type="LVClass" URL="../Basic Table/Configuration/Table Configuration Basic DB/Table Configuration Basic DB.lvclass"/>
 		<Item Name="Table Configuration Interface.lvclass" Type="LVClass" URL="../Table Configuration Interface/Table Configuration Interface.lvclass"/>
 		<Item Name="Table Configuration.lvclass" Type="LVClass" URL="../Basic Table/Configuration/Table Configuration Class/Table Configuration.lvclass"/>
 	</Item>
 	<Item Name="Basic Table.lvclass" Type="LVClass" URL="../Basic Table/Basic Table Class/Basic Table.lvclass"/>
-	<Item Name="Table Configuration Constructor.vi" Type="VI" URL="../Basic Table/Table Configuration Constructor.vi"/>
 </Library>

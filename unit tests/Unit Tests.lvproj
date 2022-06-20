@@ -273,6 +273,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -350,12 +351,12 @@
 			</Item>
 			<Item Name="ADODB.lvlib" Type="Library" URL="../../source/Database OOP/Database Libraries/ADODB.lvlib"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Basic Columns.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Basic Columns.lvlib"/>
-			<Item Name="Basic Field Constructors.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Basic Field Constructors.lvlib"/>
-			<Item Name="Basic Fields.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Basic Fields.lvlib"/>
 			<Item Name="Button Interfaces.lvlib" Type="Library" URL="../../source/Database OOP/Button Libraries/Button Interfaces.lvlib"/>
 			<Item Name="Button.lvlib" Type="Library" URL="../../source/Database OOP/Button Libraries/Button.lvlib"/>
 			<Item Name="Column Interfaces.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Column Interfaces.lvlib"/>
+			<Item Name="Composed Columns.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Composed Columns.lvlib"/>
+			<Item Name="Composed Field Constructors.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Composed Field Constructors.lvlib"/>
+			<Item Name="Composed Fields.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Composed Fields.lvlib"/>
 			<Item Name="Database Interfaces.lvlib" Type="Library" URL="../../source/Database OOP/Database Libraries/Database Interfaces.lvlib"/>
 			<Item Name="Field Interfaces.lvlib" Type="Library" URL="../../source/Database OOP/Column Libraries/Field Interfaces.lvlib"/>
 			<Item Name="Form Model Interfaces.lvlib" Type="Library" URL="../../source/Forms AF/Forms Model/Form Model Interfaces.lvlib"/>
@@ -363,7 +364,7 @@
 			<Item Name="Form Server Interfaces.lvlib" Type="Library" URL="../../source/Forms AF/Forms Server/Form Server Interfaces.lvlib"/>
 			<Item Name="Form Server.lvlib" Type="Library" URL="../../source/Forms AF/Forms Server/Form Server.lvlib"/>
 			<Item Name="Form.lvlib" Type="Library" URL="../../source/Database OOP/Table Libraries/Form.lvlib"/>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="Must Call Child Method.vi" Type="VI" URL="../../source/Database OOP/Error Handler/Must Call Child Method.vi"/>
 			<Item Name="Open Close Logic Simple Table.lvlib" Type="Library" URL="../../source/Forms AF/Forms Server/Open Close Logic Simple Table.lvlib"/>
 			<Item Name="Panel Form Controller.lvlib" Type="Library" URL="../../source/Forms AF/Forms Controller/Panel Form Controller.lvlib"/>

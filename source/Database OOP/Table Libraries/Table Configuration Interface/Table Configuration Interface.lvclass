@@ -75,4 +75,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 	</Item>
+	<Item Name="Set Column Factory.vi" Type="VI" URL="../Set Column Factory.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;Z!=!!?!!!T#V2B9GRF,GRW&lt;'FC*62B9GRF)%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F,GRW9WRB=X-!)62B9GRF)%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%Z!=!!?!!!Q&amp;U.P&lt;(6N&lt;C"*&lt;H2F=G:B9W6T,GRW&lt;'FC&amp;E.P&lt;(6N&lt;C"'97.U&lt;X*Z,GRW9WRB=X-!!".$&lt;WRV&lt;7YA2G&amp;D&gt;'^S?3"5?8"F!&amp;Z!=!!?!!!T#V2B9GRF,GRW&lt;'FC*62B9GRF)%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F,GRW9WRB=X-!)&amp;2B9GRF)%.P&lt;G:J:X6S982J&lt;WYA37ZU:8*G97.F)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 </LVClass>
