@@ -10,6 +10,10 @@
 		<Item Name="Open Form Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Open Form Msg/Open Form Msg.lvclass"/>
 		<Item Name="Get Table Object Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Get Table Object Msg/Get Table Object Msg.lvclass"/>
 		<Item Name="Update Form Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Update Form Msg/Update Form Msg.lvclass"/>
+		<Item Name="Add Row to Database Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Add Row to Database Msg/Add Row to Database Msg.lvclass"/>
+		<Item Name="Deregister FKs Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Deregister FKs Msg/Deregister FKs Msg.lvclass"/>
+		<Item Name="Register Form FKs Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Register Form FKs Msg/Register Form FKs Msg.lvclass"/>
+		<Item Name="Update FKs Msg.lvclass" Type="LVClass" URL="../Form Server Messages Messages/Update FKs Msg/Update FKs Msg.lvclass"/>
 	</Item>
 	<Item Name="Field FK PK Info.ctl" Type="VI" URL="../Update Fields Logic/Field FK PK Info.ctl"/>
 	<Item Name="Form FK Fields.ctl" Type="VI" URL="../Update Fields Logic/Form FK Fields.ctl"/>

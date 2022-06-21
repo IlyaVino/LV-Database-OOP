@@ -5,8 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Add row to database Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Add row to database Msg/Add row to database Msg.lvclass"/>
 		<Item Name="Get Table Object Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Get Table Object Msg/Get Table Object Msg.lvclass"/>
 		<Item Name="Open Form Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Open Form Msg/Open Form Msg.lvclass"/>
+		<Item Name="Populate Fields Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Populate Fields Msg/Populate Fields Msg.lvclass"/>
+		<Item Name="Register FKs Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Register FKs Msg/Register FKs Msg.lvclass"/>
+		<Item Name="Request FK Update Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Request FK Update Msg/Request FK Update Msg.lvclass"/>
 		<Item Name="Update Table Msg.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages Messages/Update Table Msg/Update Table Msg.lvclass"/>
 	</Item>
 	<Item Name="Form Model Messages.lvclass" Type="LVClass" URL="../Form Model Interfaces/Form Model Messages/Form Model Messages.lvclass"/>

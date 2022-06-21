@@ -11,6 +11,7 @@
 		<Item Name="Panel Form Controller Configuration.lvclass" Type="LVClass" URL="../Configuration/Controller Configuration/Panel Form Controller Configuration.lvclass"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Add row to database Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Add row to database Msg/Add row to database Msg.lvclass"/>
 		<Item Name="Get Table Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Get Table Msg/Get Table Msg.lvclass"/>
 		<Item Name="Populate All Fields Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate All Fields Msg/Populate All Fields Msg.lvclass"/>
 		<Item Name="Populate Field Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate Field Msg/Populate Field Msg.lvclass"/>
