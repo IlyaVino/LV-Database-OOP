@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="Buttons" Type="Folder">
+		<Item Name="Add Form to Database Button.lvclass" Type="LVClass" URL="../Add Form to Database/Add Form to Database Button.lvclass"/>
+		<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
+	</Item>
 	<Item Name="Configuration" Type="Folder">
 		<Item Name="Form from Configured Table.lvclass" Type="LVClass" URL="../Configuration/Form from Configured Table/Form from Configured Table.lvclass"/>
 		<Item Name="Form from Table Configuration.lvclass" Type="LVClass" URL="../Configuration/Form from Table Configuration/Form from Table Configuration.lvclass"/>
@@ -11,6 +15,7 @@
 		<Item Name="Panel Form Controller Configuration.lvclass" Type="LVClass" URL="../Configuration/Controller Configuration/Panel Form Controller Configuration.lvclass"/>
 	</Item>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 		<Item Name="Add row to database Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Add row to database Msg/Add row to database Msg.lvclass"/>
 		<Item Name="Get Table Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Get Table Msg/Get Table Msg.lvclass"/>
 		<Item Name="Populate All Fields Msg.lvclass" Type="LVClass" URL="../Panel Form Controller Messages/Populate All Fields Msg/Populate All Fields Msg.lvclass"/>
@@ -19,7 +24,6 @@
 	</Item>
 	<Item Name="Builder Cluster.ctl" Type="VI" URL="../Form Controller/Builder Cluster.ctl"/>
 	<Item Name="Form Window.lvclass" Type="LVClass" URL="../Form Window/Form Window.lvclass"/>
-	<Item Name="Open Form Button.lvclass" Type="LVClass" URL="../Open Form Button/Open Form Button.lvclass"/>
 	<Item Name="Panel Form Controller.lvclass" Type="LVClass" URL="../Form Controller/Panel Form Controller.lvclass"/>
 	<Item Name="User form template.vi" Type="VI" URL="../User form template.vi"/>
 </Library>
