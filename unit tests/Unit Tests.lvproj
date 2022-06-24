@@ -15,6 +15,7 @@
 		</Item>
 		<Item Name="database MS Access test.vi" Type="VI" URL="../database MS Access test.vi"/>
 		<Item Name="Launch Actors Wrapper.vi" Type="VI" URL="../Launch Actors Wrapper.vi"/>
+		<Item Name="select data.vi" Type="VI" URL="../select data.vi"/>
 		<Item Name="sequential notify user.vi" Type="VI" URL="../sequential notify user.vi"/>
 		<Item Name="table column sketch.vi" Type="VI" URL="../table column sketch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

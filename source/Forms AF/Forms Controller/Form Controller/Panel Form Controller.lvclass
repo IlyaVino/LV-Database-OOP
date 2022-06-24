@@ -156,11 +156,11 @@
 		<Item Name="Actor Core.vi" Type="VI" URL="../Actor Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$B!=!!?!!!F&amp;5&amp;D&gt;'^S)%:S97VF&gt;W^S;SZM&gt;GRJ9AV"9X2P=CZM&gt;G.M98.T!!F"9X2P=C"P&gt;81!&amp;E"1!!-!!!!"!!)):8*S&lt;X)A;7Y!!&amp;Z!=!!?!!!\'V"B&lt;G6M)%:P=GUA1W^O&gt;(*P&lt;'RF=CZM&gt;GRJ9BV197ZF&lt;#"'&lt;X*N)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!95'&amp;O:7QA2G^S&lt;3"$&lt;WZU=G^M&lt;'6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1090519168</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
 		<Item Name="Stop Core.vi" Type="VI" URL="../Stop Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%T!!!!"1!%!!!!8E"Q!"Y!!$M&lt;5'&amp;O:7QA2G^S&lt;3"$&lt;WZU=G^M&lt;'6S,GRW&lt;'FC(6"B&lt;G6M)%:P=GUA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"F197ZF&lt;#"'&lt;X*N)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!"&gt;!!Q!1:GFO97QA:8*S&lt;X)A9W^E:1!!8E"Q!"Y!!$M&lt;5'&amp;O:7QA2G^S&lt;3"$&lt;WZU=G^M&lt;'6S,GRW&lt;'FC(6"B&lt;G6M)%:P=GUA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!"B197ZF&lt;#"'&lt;X*N)%.P&lt;H2S&lt;WRM:8)A;7Y!!&amp;1!]!!-!!!!!!!!!!%!!!!!!!!!!!!!!!!!!A!$!Q!!?!!!!!!!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!#3!!!!!!%!"!!!!!!</Property>
