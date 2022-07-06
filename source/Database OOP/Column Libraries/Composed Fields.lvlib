@@ -7,4 +7,5 @@
 	<Item Name="Composed Field.lvclass" Type="LVClass" URL="../Composed Field/Composed Field.lvclass"/>
 	<Item Name="Field Factory.lvclass" Type="LVClass" URL="../Field Factory/Field Factory.lvclass"/>
 	<Item Name="FK Field.lvclass" Type="LVClass" URL="../FK Field/FK Field.lvclass"/>
+	<Item Name="PK Field.lvclass" Type="LVClass" URL="../PK Field/PK Field.lvclass"/>
 </Library>
