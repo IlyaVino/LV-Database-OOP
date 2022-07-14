@@ -10,14 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="User Forms" Type="Folder">
-			<Item Name="Forms.lvlib" Type="Library" URL="../User Forms/Forms.lvlib"/>
-		</Item>
-		<Item Name="database MS Access test.vi" Type="VI" URL="../database MS Access test.vi"/>
+		<Item Name="Database Interface Tests.vi" Type="VI" URL="../Database Interface Tests.vi"/>
 		<Item Name="Launch Actors Wrapper.vi" Type="VI" URL="../Launch Actors Wrapper.vi"/>
 		<Item Name="select data.vi" Type="VI" URL="../select data.vi"/>
 		<Item Name="sequential notify user.vi" Type="VI" URL="../sequential notify user.vi"/>
 		<Item Name="table column sketch.vi" Type="VI" URL="../table column sketch.vi"/>
+		<Item Name="Test Forms.lvlib" Type="Library" URL="../Test Forms.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>

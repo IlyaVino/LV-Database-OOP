@@ -14,6 +14,7 @@
 		<Item Name="Ctrl Refnum" Type="Folder">
 			<Item Name="Ctrl Refnum Value Source.lvclass" Type="LVClass" URL="../Ctrl Renum Value Source Class/Ctrl Refnum Value Source.lvclass"/>
 			<Item Name="Numeric Ctrl Refnum Source.lvclass" Type="LVClass" URL="../Numeric Ctrl Refnum Source/Numeric Ctrl Refnum Source.lvclass"/>
+			<Item Name="Path Ctrl Refnum.lvclass" Type="LVClass" URL="../Path Refnum/Path Ctrl Refnum.lvclass"/>
 			<Item Name="String Ctrl Refnum Source.lvclass" Type="LVClass" URL="../String Ctrl Refnum Source/String Ctrl Refnum Source.lvclass"/>
 			<Item Name="Text Ring Ctrl Refnum Source.lvclass" Type="LVClass" URL="../Text Ring Ctrl Refnum Source/Text Ring Ctrl Refnum Source.lvclass"/>
 			<Item Name="Timestamp Ctrl Value Source.lvclass" Type="LVClass" URL="../Timestamp Ctrl Value Source/Timestamp Ctrl Value Source.lvclass"/>

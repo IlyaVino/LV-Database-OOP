@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-06-27 15:41:32" Creator="User" Comments="" ID="b80352b1925d83cbe0f0bedf60fc55a4">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-07-14 10:57:05" Creator="User" Comments="" ID="7af2f370d4a1d11054f142cc9665076a">
   <Library_General_Settings>
     <Package_File_Name>Cuk_Lab_lib_Database_Forms</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.2.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -45,13 +45,10 @@
 -A set of form and field classes that can be converted to and from a table and column
 -A form server-model-control actor framework that managers form display, opening/closing, updating, and conversion to/from a table</Description>
       <Copyright/>
-      <Packager/>
+      <Packager>Ilya Vinogradov</Packager>
       <URL/>
-      <Release_Notes>-Added ability to add and modify rows in database both with the table class and add with the form server class
--Add row checks table entries for against database constraints before adding to DB (reduces having to reopen DB connection)
--Add row query checks against DBMS reserved words
--Add row updates any open form FK entries
--Added a PK selector to form window--requires load, modify, and delete buttons to be useful</Release_Notes>
+      <Release_Notes>-Added path and timestamp fields, along with their constructors
+-Fixed bug where PK ring did not update its display values when adding a row</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -261,7 +258,7 @@
         <Path>Database</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BC7BFAAF2336B22A2A3AE1665D48E79</GUID>
+      <GUID>B0626EA35041D956F259E760B5E3DE33</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -324,7 +321,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>888A4CA61AF170EAD8B6BA9911C433A8</GUID>
+      <GUID>8D9EF0EF716F4F55D82F9BAD1A9E8556</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -390,68 +387,12 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Select Data.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Select Data.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Tables.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Tables.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Columns.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Columns.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Column Info.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Column Info.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Get Foreign Key.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Database OOP\Database Libraries\Database Interfaces\Database Advanced Schema Class\Get Foreign Key.vi</Path>
@@ -465,7 +406,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Database OOP\Database Libraries\Database Interfaces\Database Advanced Schema Class\Get Primary Key.vi</Path>
@@ -479,13 +420,111 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>3</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000504002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002AA00000276000000010007001F00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000380204807B1B3488FAB2549D7A8A54917AB1324CF00000003002900000012000000020000000D00CCCCFF000100000000000A000000080019000000200020002800000202000001CE001900050020001B00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000003FF55489BFF954957FF9589DBFF954957FF5D4D5BFF000003FF</Icon>
         <Path>Installed</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91467D39764C66DE008D1B372D48490B</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Select Data.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Select Data.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Insert Data by Cluster Variant.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Insert Data by Cluster Variant.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Update Table by String Array.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Update Table by String Array.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Tables.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Tables.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Columns.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Columns.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>SQL Query.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\SQL Query.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Column Info.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Column Info.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>804A359A920030E0D0BD5CEB96755531</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -604,7 +643,7 @@
         <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Add row to database.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B82454E21D93196BC79CECEDAD84C2C</GUID>
+      <GUID>EF2F632C207A34A8C744219CE04F73BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -653,7 +692,7 @@
         <Path>Database OOP\Database Libraries\ADODB\ADODB Class\Open Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5F6108A6C09696A01193FA92BF6B1AF</GUID>
+      <GUID>390DA4E9DAB7E487478023BE256C35DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -800,7 +839,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8C828795F39C1620C628CBD9158081F</GUID>
+      <GUID>9FEEDBDFB534DAAA503484B9CED32A8B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -919,7 +958,7 @@
         <Path>Forms AF\Forms Controller\User form template.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>59C0B1BE144D8E120213280E87CF48E2</GUID>
+      <GUID>25368D5028206D1EF58BA786E8AC1DAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -996,7 +1035,7 @@
         <Path>Forms AF\Forms Controller\Configuration\Panel Form Controller Config Constructor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F36D1E5369CC3C7D829FE0F2B22CF078</GUID>
+      <GUID>2D4C1A4C4A8A33762CF092272D678FA1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1017,7 +1056,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>FC41C42136E7C5C57EA74516323470D1</GUID>
+      <GUID>232F1A5BE52049A4A933BB758FD3E8E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1066,7 +1105,7 @@
         <Path>Forms AF\Forms Controller\Form Controller\Write Form.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D5B04BAEDEAE36D267BAD146BE3E3ABD</GUID>
+      <GUID>7FF563584D94602E1600E836AA224AA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1087,7 +1126,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>F9B800493A4FE04DE81C0A719A73AEFA</GUID>
+      <GUID>1E03DD9F5D314216EEF8199EBFE0E022</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1136,7 +1175,7 @@
         <Path>Forms AF\Forms Server\Form Server Configuration\Write Update Fields Logic.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9C4FE0A04B4C9F1DCFB21B8792CA5BE</GUID>
+      <GUID>90A3560B29FF088E7AA5B5FDBFA87369</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

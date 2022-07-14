@@ -10,6 +10,8 @@
 	<Item Name="Field Configuration Constructor.vi" Type="VI" URL="../Basic Field Constructors/Field Configuration Constructor.vi"/>
 	<Item Name="FK Ring Field.vi" Type="VI" URL="../Basic Field Constructors/FK Ring Field.vi"/>
 	<Item Name="Numeric Field.vi" Type="VI" URL="../Basic Field Constructors/Numeric Field.vi"/>
+	<Item Name="Path Field.vi" Type="VI" URL="../Basic Field Constructors/Path Field.vi"/>
 	<Item Name="PK Ring Field.vi" Type="VI" URL="../Basic Field Constructors/PK Ring Field.vi"/>
 	<Item Name="Text Field.vi" Type="VI" URL="../Basic Field Constructors/Text Field.vi"/>
+	<Item Name="Timestamp Field.vi" Type="VI" URL="../Basic Field Constructors/Timestamp Field.vi"/>
 </Library>
