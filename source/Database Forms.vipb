@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-07-14 10:57:05" Creator="User" Comments="" ID="7af2f370d4a1d11054f142cc9665076a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-07-22 14:16:12" Creator="User" Comments="" ID="0159387cbf553c43035d1ea09192f38d">
   <Library_General_Settings>
     <Package_File_Name>Cuk_Lab_lib_Database_Forms</Package_File_Name>
-    <Library_Version>1.2.0.2</Library_Version>
+    <Library_Version>1.3.3.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -47,8 +47,8 @@
       <Copyright/>
       <Packager>Ilya Vinogradov</Packager>
       <URL/>
-      <Release_Notes>-Added path and timestamp fields, along with their constructors
--Fixed bug where PK ring did not update its display values when adding a row</Release_Notes>
+      <Release_Notes>-Added ability for DB add data by cluster variant to ignore default numeric, although realized that the method either ignores all default numeric or a subset
+**not yet built**</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -258,7 +258,7 @@
         <Path>Database</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B0626EA35041D956F259E760B5E3DE33</GUID>
+      <GUID>58C87E7E324C55FAE755F7349A5E91FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -321,7 +321,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8D9EF0EF716F4F55D82F9BAD1A9E8556</GUID>
+      <GUID>74D3015841B6D53825242DADB73B19CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -524,7 +524,7 @@
         <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Column Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>804A359A920030E0D0BD5CEB96755531</GUID>
+      <GUID>A36023FD1413C2908044246938BD753D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -595,7 +595,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Set Values by Primary Key.vi</Path>
@@ -609,7 +609,7 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
         <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Set Values by Cluster.vi</Path>
@@ -643,7 +643,21 @@
         <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Add row to database.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EF2F632C207A34A8C744219CE04F73BE</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Row Subset as String Array.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Get Row Subset as String Array.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>8AABB3431461EDB769A428E0E4B280BD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -692,7 +706,7 @@
         <Path>Database OOP\Database Libraries\ADODB\ADODB Class\Open Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>390DA4E9DAB7E487478023BE256C35DF</GUID>
+      <GUID>8FC9D0D3260D8FB999C35D99E9AC336C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -839,7 +853,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FEEDBDFB534DAAA503484B9CED32A8B</GUID>
+      <GUID>A90EA91D4FECFFB22FC0F6535388D4B8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -958,7 +972,7 @@
         <Path>Forms AF\Forms Controller\User form template.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25368D5028206D1EF58BA786E8AC1DAD</GUID>
+      <GUID>0D01D2651064EB21BB38CB1DA1275AE2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1035,7 +1049,7 @@
         <Path>Forms AF\Forms Controller\Configuration\Panel Form Controller Config Constructor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2D4C1A4C4A8A33762CF092272D678FA1</GUID>
+      <GUID>14BBC37A47DEB6DB0FD5F2A661E081C9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1056,7 +1070,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>232F1A5BE52049A4A933BB758FD3E8E5</GUID>
+      <GUID>4682E158B092635576A1ECB10D589CF0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1105,7 +1119,7 @@
         <Path>Forms AF\Forms Controller\Form Controller\Write Form.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FF563584D94602E1600E836AA224AA3</GUID>
+      <GUID>5D8F3929CB45CC666EF62185B9044505</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1126,7 +1140,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>1E03DD9F5D314216EEF8199EBFE0E022</GUID>
+      <GUID>25939FCF04823A50AE399E87B1B9C90D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1175,7 +1189,7 @@
         <Path>Forms AF\Forms Server\Form Server Configuration\Write Update Fields Logic.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90A3560B29FF088E7AA5B5FDBFA87369</GUID>
+      <GUID>961EDD99B4CF7F9A3232CC2BA27C5DD9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

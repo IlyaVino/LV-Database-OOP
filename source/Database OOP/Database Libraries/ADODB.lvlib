@@ -4,12 +4,13 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="connection open schema.vi" Type="VI" URL="../ADODB/connection open schema.vi"/>
+		<Item Name="Convert Database Datatype.vi" Type="VI" URL="../ADODB/Convert Database Datatype.vi"/>
+		<Item Name="recordset get field names.vi" Type="VI" URL="../ADODB/recordset get field names.vi"/>
+	</Item>
 	<Item Name="ADODB.lvclass" Type="LVClass" URL="../ADODB/ADODB Class/ADODB.lvclass"/>
-	<Item Name="connection open schema.vi" Type="VI" URL="../ADODB/connection open schema.vi"/>
-	<Item Name="Convert Database Datatype.vi" Type="VI" URL="../ADODB/Convert Database Datatype.vi"/>
 	<Item Name="DBMS Specific.lvclass" Type="LVClass" URL="../DBMS Specific/DBMS Specific.lvclass"/>
 	<Item Name="MS Access Database Engine.lvclass" Type="LVClass" URL="../MS Access Database Engine/MS Access Database Engine.lvclass"/>
-	<Item Name="MS Access Reserved Words Set Builder.vi" Type="VI" URL="../MS Access Database Engine/MS Access Reserved Words Set Builder.vi"/>
-	<Item Name="recordset get field names.vi" Type="VI" URL="../ADODB/recordset get field names.vi"/>
 	<Item Name="UDL Connection.lvclass" Type="LVClass" URL="../ADODB/UDL Connection Class/UDL Connection.lvclass"/>
 </Library>

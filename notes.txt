@@ -5,3 +5,4 @@ Bugs:
 	-Most formal way to fix this is by creating a PK field class, like the FK field class, that tracks registered PK selectors
 	-**Chose this one: Less formal way is to lookup if any PK selectro fields are registered in the form.lvclass, and call the update method if they are
 -LV Default timestamp causes error in MS Access -- Need to switch to parameterized query to pass null values
+-When form.vi window size is set to 0, form window launches as a 0x0 window, and after correcting the window is missing the PK selector and add bars
