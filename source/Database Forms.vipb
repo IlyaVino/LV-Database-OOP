@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-07-22 14:16:12" Creator="User" Comments="" ID="0159387cbf553c43035d1ea09192f38d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-05-20 09:42:44" Modified_Date="2022-08-31 12:51:59" Creator="User" Comments="" ID="4039acc9116af98ff702995a2c9781b7">
   <Library_General_Settings>
     <Package_File_Name>Cuk_Lab_lib_Database_Forms</Package_File_Name>
-    <Library_Version>1.3.3.1</Library_Version>
+    <Library_Version>1.3.4.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -47,8 +47,10 @@
       <Copyright/>
       <Packager>Ilya Vinogradov</Packager>
       <URL/>
-      <Release_Notes>-Added ability for DB add data by cluster variant to ignore default numeric, although realized that the method either ignores all default numeric or a subset
-**not yet built**</Release_Notes>
+      <Release_Notes>-Instead of defining DB default values by LV default values, added an explicit default value T/F to the composed column class
+-Default values are not added in insert queries, so the DB default value is used
+-New method to toggle default values in column interface
+-Writing a value to a column by variant, string, pk, etc toggles the column to non-default</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -258,7 +260,7 @@
         <Path>Database</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58C87E7E324C55FAE755F7349A5E91FF</GUID>
+      <GUID>2CF6927AD4E4C3EE2D4DF59BD2DA4D76</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -321,7 +323,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74D3015841B6D53825242DADB73B19CB</GUID>
+      <GUID>5E56468B008D0694AB2FDC99CE00BA00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -524,7 +526,7 @@
         <Path>Database OOP\Database Libraries\Database Interfaces\Database Interface Class\Get Column Info.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A36023FD1413C2908044246938BD753D</GUID>
+      <GUID>5B5ABBF95B1BA255F8BC2287E2884D5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -657,7 +659,7 @@
         <Path>Database OOP\Table Libraries\Basic Table\Basic Table Class\Get Row Subset as String Array.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AABB3431461EDB769A428E0E4B280BD</GUID>
+      <GUID>18602BBA6437D4D6158C8C0A174A14A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -706,7 +708,7 @@
         <Path>Database OOP\Database Libraries\ADODB\ADODB Class\Open Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FC9D0D3260D8FB999C35D99E9AC336C</GUID>
+      <GUID>DA807CF6476FED8EE4B7F37FB0EF28BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -853,7 +855,7 @@
         <Path>Config</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A90EA91D4FECFFB22FC0F6535388D4B8</GUID>
+      <GUID>4BC14562F5CC0CE6C7D8BA94688E5A19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -972,7 +974,7 @@
         <Path>Forms AF\Forms Controller\User form template.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D01D2651064EB21BB38CB1DA1275AE2</GUID>
+      <GUID>147017CD1B55DA820D3683CB522EC5A8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1049,7 +1051,7 @@
         <Path>Forms AF\Forms Controller\Configuration\Panel Form Controller Config Constructor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14BBC37A47DEB6DB0FD5F2A661E081C9</GUID>
+      <GUID>A5B97541463AE514F9437D6B389D82E8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1070,7 +1072,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>4682E158B092635576A1ECB10D589CF0</GUID>
+      <GUID>84E9F5A162C86BF555047DBBB3B15DF9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1119,7 +1121,7 @@
         <Path>Forms AF\Forms Controller\Form Controller\Write Form.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D8F3929CB45CC666EF62185B9044505</GUID>
+      <GUID>8AD4DD745322C7DF616156E6DFE74BE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1140,7 +1142,7 @@
         <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
         <Synchronize_Directory_Path/>
       </Synchronization_Info>
-      <GUID>25939FCF04823A50AE399E87B1B9C90D</GUID>
+      <GUID>9F3338631BDB1BF4AF8B88CB453C2DF2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -1189,7 +1191,7 @@
         <Path>Forms AF\Forms Server\Form Server Configuration\Write Update Fields Logic.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>961EDD99B4CF7F9A3232CC2BA27C5DD9</GUID>
+      <GUID>BFA25E1A01F4594C9835DC2DEBA6BDB3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
